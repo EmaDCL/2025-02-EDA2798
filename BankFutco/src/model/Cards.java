@@ -60,6 +60,13 @@ public class Cards {
         this.available = available;
     }
 
+
+    @Override
+    public String toString() {
+        return "Cards [cardNumber=" + cardNumber + ", Type=" + Type + ", totalLimit=" + totalLimit + ", amountUsed="
+                + amountUsed + ", available=" + available + "]";
+    }
+
     
 
 }
